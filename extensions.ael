@@ -1,0 +1,9 @@
+context from-internal {
+         *43 => {Answer();
+                Echo();
+                }
+
+         _XXX => {Dial(SIP/${EXTEN});
+                  Hangup();
+                  }
+}
